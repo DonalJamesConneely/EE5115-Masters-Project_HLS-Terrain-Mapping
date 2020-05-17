@@ -1,0 +1,6 @@
+from pynq import Overlay
+mult = Overlay('/home/xilinx/MyFiles/AXI-Lite-Demo/mult_demo.bit')
+add_ip = mult.mult_0
+add_ip.write(0x10, 10)
+add_ip.write(0x18, 100)
+add_ip.read(0x20)

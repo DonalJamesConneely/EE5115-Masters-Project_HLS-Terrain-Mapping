@@ -1,0 +1,29 @@
+﻿  net_serial.cpp
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  net_socket.cpp
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  timer.cpp
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  thread.cpp
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+  rplidar_driver.cpp
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_protocol.h(59): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  c:\users\donal\source\repos\rplidar - library\sdk\sdk\include\rplidar_cmd.h(260): note: This member will be ignored by a defaulted constructor or copy/move assignment operator
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\src\rplidar_driver.cpp(2062): warning C4267: 'initializing': conversion from 'size_t' to '_u8', possible loss of data
+  Generating Code...
+c:\users\donal\source\repos\rplidar - library\sdk\sdk\src\rplidar_driver.cpp(2225): warning C4715: 'rp::standalone::rplidar::RPlidarDriverImplCommon::startMotor': not all control paths return a value
+  rplidar_driver.vcxproj -> C:\Users\donal\source\repos\RPLIDAR - Library\sdk\workspaces\vc10\ARM\Debug\rplidar_driver.lib

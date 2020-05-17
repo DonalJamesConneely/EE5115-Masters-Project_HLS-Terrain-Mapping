@@ -1,0 +1,39 @@
+from pynq import Xlnk
+import numpy as np
+import pynq.lib.dma
+from pynq import Overlay
+
+overlay = Overlay('/home/xilinx/MyFiles/AXI-Stream-Demo/design_1.bit')
+dmaA = overlay.axi_dma_0
+dmaB = overlay.axi_dma_1
+
+xlnk = Xlnk()
+
+input_buffer_A = xlnk.cma_array(shape=(10,), dtype=np.uint32)
+input_buffer_B = xlnk.cma_array(shape=(10,), dtype=np.uint32)
+
+for i in range(10):
+    input_buffer_A[i] = i
+    input_buffer_B[i] = 2*i
+    
+print("Inputs")
+for i in range(10):
+    print(input_buffer_A[i]," * ",input_buffer_B[i])
+
+print("")
+dmaA.sendchannel.transfer(input_buffer_A)
+dmaA.sendchannel.wait()
+dmaB.sendchannel.transfer(input_buffer_B)
+dmaB.sendchannel.wait()
+
+output_buffer = xlnk.cma_array(shape=(10,), dtype=np.uint32)
+
+print("")
+dmaA.recvchannel.transfer(output_buffer)
+dmaA.recvchannel.wait()
+
+print("Outputs")
+for i in range(10):
+    print(output_buffer[i])
+
+del input_buffer_A, input_buffer_B, output_buffer
