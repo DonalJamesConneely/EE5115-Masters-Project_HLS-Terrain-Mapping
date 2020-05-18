@@ -1,4 +1,4 @@
 # Master-Project
 FPGA Implementation of LiDAR Terrain Mapping System based on High Level Synthesis
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Poster](https://github.com/DonalJamesConneely/EE5115-Masters-Project_HLS-Terrain-Mapping/Poster.jpg)
