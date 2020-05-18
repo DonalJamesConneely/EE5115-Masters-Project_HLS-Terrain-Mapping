@@ -2,8 +2,6 @@
 FPGA Implementation of LiDAR Terrain Mapping System based on High Level Synthesis
 
 # Directory Structure
-Here is the basic structure of this repository:
-
 ```
 ├── Bench_Demo_&_Videos
 │	├── Bench_Demo.pptx
@@ -78,4 +76,5 @@ Here is the basic structure of this repository:
 └── References.docx
 ```
 
+# Project Poster
 ![Poster](https://github.com/DonalJamesConneely/EE5115-Masters-Project_HLS-Terrain-Mapping/blob/master/Poster.jpg)
