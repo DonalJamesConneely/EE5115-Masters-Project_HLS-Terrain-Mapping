@@ -73,6 +73,8 @@ FPGA Implementation of LiDAR Terrain Mapping System based on High Level Synthesi
 │
 ├── README.md
 │
+├── EE5115 ME Project Thesis_DonalConneely_HLS_TerrainMapping_FPGA.pdf
+│
 └── References.docx
 ```
 
